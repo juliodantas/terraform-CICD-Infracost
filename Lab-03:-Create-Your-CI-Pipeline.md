@@ -1,18 +1,28 @@
-# Create Your Terraform CI Pipeline
+# 
 ## Step 1:
 ### 
 
-## Step 1:
+## Step 2:
 ### 
 
-## Step 1:
+## Step 3:
 ### 
 
-## Step 1:
+## Step 4:
 ### 
 
-## Step 1:
+## Step 5:
 ### 
 
-## Step 1:
+## Step 6:
 ### 
+
+## Step 7:
+### 
+
+## Step 8:
+### 
+
+## Step 9:
+### 
+
