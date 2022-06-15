@@ -84,6 +84,8 @@ checks:
       value: Opstree-POC
     errorMessage:  The required suffix "Opstree-POC" was missing
 ```
+![image](https://user-images.githubusercontent.com/99440004/173731068-32cf16b4-f4e1-413c-8d59-aeb3d6fe889b.png)
+
 ### You can also use the YAML commands for the same task
 ```
 steps:
@@ -111,6 +113,7 @@ steps:
 ### For this you need to generate an API key.
 ### To generate the API key you can use `infracost register` command to register yourself using your Username & E-mail.
 ### You can also use the YAML commands for the same task
+![image](https://user-images.githubusercontent.com/99440004/173731152-39d46f74-a9a6-4091-a661-00da302f5dcb.png)
 ```
 steps:
 - bash: |
@@ -127,6 +130,7 @@ steps:
 ![image](https://user-images.githubusercontent.com/99440004/173707386-2f2ab103-8496-492e-aed3-5d5d07a24196.png)
 ### Using same previous tool `infracost` to calculate the difference between our present state & desired state of our configuration
 ### You can also use the YAML commands for the same task
+![image](https://user-images.githubusercontent.com/99440004/173731336-4bb17d81-0961-4a94-a301-0bb83f916a3c.png)
 ```
 steps:
 - bash: |
