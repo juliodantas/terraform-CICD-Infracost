@@ -112,5 +112,7 @@ steps:
 
   condition: succeededOrFailed()
 
-
 ``` 
+## Generated Report in our Blob Container
+![image](https://user-images.githubusercontent.com/99440004/173720910-c5fe6dc2-c3d6-4c13-954c-088ba1da79f3.png)
+
