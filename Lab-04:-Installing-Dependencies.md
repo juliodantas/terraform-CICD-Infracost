@@ -25,6 +25,8 @@ steps:
 ```
 
 ## Step 3: Install Azure CLI
+### This will install Azure ClI into our linux system.
+### For once we need to run `az login` to give our system the access to our azure cloud active subscription
 ![image](https://user-images.githubusercontent.com/99440004/173702193-2ec89a2a-2a47-4e7a-8c95-aca6ed76075a.png)
 ### You can also use the YAML commands for the same task 
 ```
@@ -41,7 +43,7 @@ steps:
    sudo apt-get update
    sudo apt-get install azure-cli -y
    sudo apt install unzip -y
-
+ 
   displayName: 'Install Azure CLI'
 
 ```
