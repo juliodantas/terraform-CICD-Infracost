@@ -1,5 +1,7 @@
 # Creating Terraform CD (Release) Pipeline
-## Step 1:
+## Step 1: Navigate to Release Pipeline under Pipeline column. 
+![image](https://user-images.githubusercontent.com/99440004/173723719-40521df6-a735-4eed-a016-8e991fbcef02.png)
+
 ### 
 
 ## Step 2:
