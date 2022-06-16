@@ -111,7 +111,10 @@ steps:
 ![image](https://user-images.githubusercontent.com/99440004/173706692-b3de8aaa-9125-4e7d-b3cd-ecaba3c04501.png)
 ### Here we are using a docker image of `infracost` as a tool to calculate our estimated cost for our terraform code
 ### For this you need to generate an API key.
-### To generate the API key you can use `infracost register` command to register yourself using your Username & E-mail.
+### To generate the API key you need to install infracost in your system using `curl -fsSL https://raw.githubusercontent.com/infracost/infracost/master/scripts/install.sh | sh` and then run `infracost register` command to register yourself using your Username & E-mail.
+### It is a best practice to secure your API's and credentials in a variable while running our pipeline, so we will store our API key into pipeline variable.
+![image](https://user-images.githubusercontent.com/99440004/174030266-3f0b714b-657c-479a-b2a7-c25b83cd725c.png)
+
 ### You can also use the YAML commands for the same task
 ![image](https://user-images.githubusercontent.com/99440004/173731152-39d46f74-a9a6-4091-a661-00da302f5dcb.png)
 ```
