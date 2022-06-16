@@ -32,7 +32,7 @@ steps:
   displayName: 'Copy Files to: report'
   inputs:
     SourceFolder: '$(Pipeline.Workspace)/s'
-    Contents: '*IAC-CI-*'
+    Contents: '*$(Build.DefinitionName)*'
     TargetFolder: '$(Pipeline.Workspace)/s/report'
 
 ``` 
